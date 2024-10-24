@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* background-color: rgb(220, 195, 243); */
+        background-image: url(school-building-near-road-illustration_1262-16602.avif);
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .car{
+        height: 200px;
+        width: 200px;
+        margin-left: 900px;
+        margin-top: 350px;
+        animation: car 2s linear infinite;
+        position: absolute;
+    }
+    .shoot{
+        height: 150px;
+        width: 150px;
+        animation: shoot 2s linear infinite;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 950px;
+    }
+    .bullet{
+        height: 5px;
+        width: 20px;
+        margin-top: 460px;
+        margin-left: 900px;
+        animation: bullet 1s linear infinite;
+        position: absolute;
+    }
+    .running{
+        height: 100px;
+        width: 100px;
+        animation: thief 2s linear infinite;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 400px;
+  }
+  /* .img{
+    width: 100px;
+    height: 100px;
+  } */
+   @keyframes thief{
+      from{margin-left: 600px;}
+      to{margin-left: -20px}
+   }
+   @keyframes car{
+    from{margin-left: 1000px;}
+    to{margin-left: -20%}
+   }
+   @keyframes bullet{
+    from{margin-left: 1000px;}
+    to{margin-left: 10%}
+   }
+</style>
+<body>
+    <img class="car" src="ford-mustang-146580_1280.png" alt="car">
+    <div class="running"><img src="Zl7n.gif" alt="gif"></div>
+    <img class="shoot" src="police-removebg-preview.png" alt="police">
+    <img class="bullet" src="ammunition-305176_640.png" alt="bullet">
+</body>
+</html>
